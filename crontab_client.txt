@@ -1,0 +1,8 @@
+#git backup task to fetch backup file from 227:
+0 3 * * * /home/backup_root/git_backup/fetchGitBackup.sh
+#svn backup from 80 svn server:
+0 4 * * * svn co --username yanhk https://192.168.1.80:4443/svn/oao2ov15 /home/backup_root/svn_backup/
+#projects git backup(non-import!):
+0 5 * * * /home/backup_root/git_backup/projects/flash_projects_git.sh >> /home/backup_root/git_backup/projects/flash_projects_git.log
+~
+~

@@ -1,0 +1,6 @@
+# m h dom mon dow user command
+55 * * * * /opt/gitlab-8.2.3-3/apps/gitlab/htdocs/gitlab_backup.sh >> /opt/gitlab-8.2.3-3/apps/gitlab/htdocs/gitlab_backup.log
+~
+~
+~
+~
